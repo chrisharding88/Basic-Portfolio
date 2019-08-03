@@ -1,0 +1,27 @@
+
+body{
+    width: 100%;
+}
+
+.nav-block{
+    display: inline;
+}
+h1{
+    float: left;
+    margin:0;
+    margin-left: 5%;
+
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+   float: right;
+   margin-right:10%;
+   padding: 2px;
+}
+
+a{
+    text-decoration: none;
+}
