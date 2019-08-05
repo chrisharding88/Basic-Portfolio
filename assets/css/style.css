@@ -1,11 +1,17 @@
 
 body{
-    width: 100%;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .nav-block{
     display: inline;
 }
+
+header{
+    display: block;
+}
+
 h1{
     float: left;
     margin:0;
@@ -24,4 +30,30 @@ li{
 
 a{
     text-decoration: none;
+}
+
+input{
+    font-size:20px;
+}
+
+.form-section{
+    display: block;
+    border:2px solid black;
+    width: 750px;
+    height: 430px;
+    margin: 0 auto;
+    clear: both;
+    margin-top:25%;
+
+}
+
+.contact-header{
+    text-align: center;
+    font-size: 45px;
+    margin-left:300px;
+    margin-top:2%;
+}
+
+.info{
+    margin-left: 25%;
 }
